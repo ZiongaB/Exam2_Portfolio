@@ -1,0 +1,23 @@
+This is a list of resources used for the EXAM 2 Project:
+
+Images:
+
+-These were all screenshots or photos taken by me so it should be fine.
+-(Picture of the Player's Handbook is a picture of my own handbooks)
+
+
+Code:
+
+-While most of my code was built from snippets and ideas from the previous project, some a few came from w3schools.
+-https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js
+
+-While I was able to remember some basics about flex box by looking at the code from the Metz rebuild assignment, I did look at this site to fully understand it.
+-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+-I used this to understand how the tabindex element worked 
+-https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+
+
+Additional (non-coding) resources I used for additional polish:
+-https://validator.w3.org/nu/#file
+-https://mycolor.space/?hex=%23454555&sub=1

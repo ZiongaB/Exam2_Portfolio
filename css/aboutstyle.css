@@ -1,0 +1,244 @@
+/* This css is basic but I found it was a lot more clean than the css
+for the last project */
+
+/* This section is mostly the main base element stylings */
+
+body{
+	width: 100%;
+	height: 95%;
+	margin: 0 auto;
+	margin-top: 10%;
+	background-color: #206EDB;
+}
+
+
+h1{
+	font-family: "Georgia", serif;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	color: #EDEEFF;
+	padding: 0;
+}
+
+h2{
+	font-family: "Georgia", serif;
+	text-align: center;
+	width: 100%;
+	color: #EDEEFF;
+}
+
+h3{
+	font-family: "Georgia", serif;
+	text-align: center;
+	width: 100%;
+}
+
+p{
+	font-family: "Georgia", serif;
+	text-align: center;
+}
+
+button {
+	font-family: "Georgia", serif;
+	text-align: center;
+	display: inline-block;
+	padding: 0.1em;
+	max-height: 20%;
+}
+
+/* This is the navigation bar styling, including making
+ all the nav items flexbox stuff. */
+
+nav {
+	overflow: auto;
+	background-color: #292A38;
+	position: fixed; 
+	z-index: 100;
+	top: 0; 
+	width: 100%;
+	height: 15%;
+}
+
+.flex-container {
+	position: fixed;
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	padding: 0;
+	margin: 0;
+	max-height: 15%;
+	align-items: center;
+	/*list-style: none;*/
+}
+
+.flex-item {
+	background: #292A38;
+	display: inline-block;
+	margin-top: 0;
+	line-height: 0;
+	color: #EDEEFF;
+	font-weight: bold;
+	font-size: 1.5em;
+	flex-basis: content;
+	width: 33%;
+	max-height: 100%;
+	border: 0.25em solid #EDEEFF;
+}
+
+.flex-item:hover {
+	background: #3A73C1;
+	border-left: 0.25em solid #EDEEFF;
+	border-right: 0.25em solid #EDEEFF;
+}
+
+/* Modfied Stylings for different colored headings */
+
+.wHead{
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #EDEEFF;
+	color: #292A38;
+	width: 100%;
+	border: 0.25em solid #292A38;
+}
+
+.wHead2{
+	background: #EDEEFF;
+	color: #292A38;
+	width: 100%;
+}
+
+.bHead{
+	background: #EDEEFF;
+	color: #292A38;
+	width: 90%;
+
+}
+
+/* This section isn't great but I wanted to make sure there was some blue
+at the top of the page image ended up being stretched but it's not too awful */
+
+.bio{
+	color: #EDEEFF;
+	overflow: auto;
+	border: 0.25em solid #292A38;
+	width: 100%;
+	height: 100%;
+}
+
+.bio #left{
+	float: left;
+	width: 20%;
+	height: 280px;
+	text-align: center;
+}
+
+.bio #right{
+	padding-left: 5%;
+	float: left;
+	width: 65%;
+	text-align: center;
+}
+
+/* Had issues with making sure the images were the same height. Also 
+wanted to mix up the layout to include 2 images. */
+
+.hobbies{
+	background: #292A38;
+	color: #EDEEFF;
+	overflow: auto;
+	border-top: none;
+	border-left: 0.25em solid #EDEEFF;
+	border-right: 0.25em solid #EDEEFF;
+	border-bottom: 0.25em solid #EDEEFF;
+	width: 100%;
+	height: 100%;
+}
+
+.hobbies #right{
+	float: left;
+	width: 30%;
+	text-align: center;
+	max-height: 530px;
+}
+
+.hobbies #left{
+	float: left;
+	width: 30%;
+	text-align: center;
+	max-height: 530px;
+}
+
+.hobbies #middle{
+	float: left;
+	width: 30%;
+	padding: 5%;
+	text-align: center;
+}
+
+/* This section is a bit basic looking but it fits the theme */
+
+.social{
+	background: #EDEEFF;
+	color: #292A38;
+	overflow: auto;
+	border-top: none;
+	border-left: 0.25em solid #292A38;
+	border-right: 0.25em solid #292A38;
+	border-bottom: 0.25em solid #292A38;
+	width: 100%;
+	height: 100%;
+}
+
+.social #right{
+	float: left;
+	padding: 5%;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+}
+
+.social #left{
+	padding: 2.5%;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+/* I had to modify fieldset to get it work with my css placement and styling */
+
+fieldset {
+	width: 50%;
+	margin: 0 auto;
+	display: inline-block;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	padding-block-start: 0;
+	padding-inline-start: 0;
+	padding-inline-end: 0;
+	padding-block-end: 0;
+}
+
+form {
+	width: 50%;
+}
+
+/* Should have done more here but not enough time */
+
+footer {
+	background-color: #206EDB; 
+	color: #EEE5E9 ;
+	text-align: center;
+	padding: 0.5em;
+	width: 100%;
+}
+
+/* IDK where i thought to put this so I'm just keeping it here */
+
+#content{
+	overflow: auto;
+	height: 100%;}
+
+#nav. #feature. #footer{
+	margin: 1%;}

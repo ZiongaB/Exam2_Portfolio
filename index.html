@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--Features language listing and text encoding within this time--->
+<html lang="en" >
+	<head>
+		<title>Zach East Portfolio Home Page</title>
+		<link href="css/aboutstyle.css" rel="stylesheet">
+		<meta charset="utf-8"/>
+	</head>
+
+<!---Decided to actually use the nav tag this time instead of divs
+	which ended up being more accessible in terms of not having to make
+	the divs tabable. Also made it a flexbox this time--->
+
+<!---Some css issue makes the navbar too tall for the items within but I couldn't
+	figure it out for the life of me. hopefully it isn't too awful--->
+
+	<body>
+		<nav class="flex-container">
+			<a href="index.html" class="flex-item"><p id="myname"></p></a>
+			<a href="index.html" class="flex-item"><p>About Me</p></a>
+			<a href="project.html" class="flex-item"><p>Projects/Portfolio</p></a>
+		</nav>
+
+<!-- Main section tag included for organization's sake.-->
+
+		<main>
+<!---Started using the tabindex to make navigting using the keyboard faster. MAybe there are too many headings that are tabbable but its faster than the arrow keys. Hopefully it's too bad--->
+			<h1 tabindex="0">ABOUT ME!!!</h1>
+			<div class="bio">
+				<img src="images/me.jpg" alt="Picture of me" id="left">
+				<div id="right">
+					<h2 tabindex="0">Bio Information</h2>
+					<p>Heyo! My name is Zach. I'm a 21 years old and moved from California to Florida very recently. Even though I spent 10 years on the west coast, I'm settling into living in the humidity of Florida pretty well. 
+					<br><br>
+					I'm a student at New College of Florida where I study Computer Science. Formerly I was studying to get an International Business degree but the pandemic gave me a lot of time to reconsider
+					<br><br>
+					While I am new to NCF and CompSci in general, I'm feel like I'm making strides and growing quickly. I'm not sure what area in CompSci I'm interested in career-wise yet but I don't think it'll be hard to figure out once I have more experience in the different fields.
+					</p>
+				</div>
+			</div>
+
+<!---Went against my original deisng here and decided to put images on both sides for the sake of it looking more filled out. Hopefully it isn't an eyesore--->
+
+			<div class="hobbies">
+				<h2 tabindex="0">My Hobbies</h2>
+				<img src="images/gameshelf.jpg" alt="My gameshelf" id="left">
+				<p id="middle">In terms of hobbies I'm not that complicated. I've been big into gaming since I was a kid and as the years have gone on I've accumulated a bit of a collection. I'm pretty big into platformers and rpgs, especially ones from Nintendo. 
+				<br><br>
+				As of the past year or two I've been getting into D&D. I've made an unreasonable amount of backupcharacters for the campaigns I'm in and I've even benn writing a homebrew setting for a one shot or campaign in the future.
+				<br><br>
+				I'm a big fan of "The Unexpectables". They're a great D&D podcast/campaign and I will tell everyone who's even slightly interested to check them out.
+				</p>
+				<img src="images/dndbook.jpg" alt="Player's Handbook" id="right">
+			</div>
+
+<!---Social media section is a little bare but i don't like sharing my socials
+	unless I know who it is. Also the form is a bit basic but I wanted it to keep to the simple theme--->
+
+			<div class="social">
+				<h2 class="wHead2" tabindex="0">Social Media/Contacting Me</h2>
+				<fieldset  id="left">
+					<legend>Contact Me Via Email!</legend>
+					<form name="fillme" action="mailto:definitelyNotMyRealEmail@fakeplace.com" onsubmit="return validateForm()" method="post">
+						Name:<input type="text" name="pname"><br>
+  						Email:<input type="email" name="email"><br>
+  						Message:<input type="text" name="message"><br>
+  						<input type="submit" value="Submit">
+					</form>
+				</fieldset>
+				<p id="right">I'm not the most active on social media and I generally only use it for personal stuff, you can get a hold of me by email at z.east23@ncf.edu.
+				<br><br>
+				If you want to find me on linkedin <a href="https://www.linkedin.com/in/zachary-east-3b2509224/">here</a><br>
+				You can check out my github on my <a href="project.html">projects page</a>
+				</p>
+			</div>
+			<script src="js/jsport.js"></script>
+<!---Connection to js file.--->
+		</main>
+
+<!---Footer button could have been better but I had a lot of trouble with the button element stylings working so i just decided to work on other problems--->
+
+		<footer>
+			<button>Come See My Projects!</button>
+		</footer>
+
+	</body>
+</html>

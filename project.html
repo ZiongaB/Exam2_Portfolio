@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--Features language listing and text encoding within this time--->
+<html lang="en">
+	<head>
+		<title>Zach East Portfolio Work Page</title>
+		<link href="css/portfoliostyle.css" rel="stylesheet">
+		<meta charset="utf-8"/>
+	</head>
+
+<!---Decided to actually use the nav tag this time instead of divs
+	which ended up being more accessible in terms of not having to make
+	the divs tabable. Also made it a flexbox this time--->
+
+<!---Some css issue makes the navbar too tall for the items within but I couldn't
+	figure it out for the life of me. hopefully it isn't too awful--->
+	
+	<body>
+		<nav class="flex-container">
+			<a href="index.html" class="flex-item"><p id="myname"></p></a>
+			<a href="index.html" class="flex-item"><p>About Me</p></a>
+			<a href="project.html" class="flex-item"><p>Projects/Portfolio</p></a>
+		</nav>
+
+<!-- Main section tag included for organization's sake.-->
+
+		<main>
+<!---Started using the tabindex to make navigting using the keyboard faster. MAybe there are too many headings that are tabbable but its faster than the arrow keys. Hopefully it's too bad--->
+			<h1 tabindex="0">Project Page</h1>
+			<div class="qualified">
+<!---Wondered if I could Iframe a pdf. Turns out you can. Pretty neat--->
+				<iframe src="Zach_Resume_2021_(Project_Copy).pdf" id="left" tabindex="0"></iframe>
+				<div id="right">
+<!---Wanted to make the heading numbers line up a bit more so its like h1-h2-h3. I think it works fine without messing up the styling.-->
+					<h2 tabindex="0">Courses/Qualifications</h2>
+					<p>As I have only been studying Computer Science for one semester here at NCF, I havent had many courses in it yet however so far I've done the following classes:<br><br>
+					-Introduction to Python<br>
+					-Usable Privacy and Security<br>
+					-Front-End Web Design<br><br>
+					The last one I've done several projects for, which can be found below</p>
+				</div>
+			</div>
+
+<!---These are the different sections of projects and I decided to only change the color of the styling instead of the position of the text and images every time. I feel like it's less of a chore to read that way--->
+
+			<h2 class="wHead" tabindex="0">Front End Projects</h2>
+			<div class="cookie">
+				<h3 tabindex="0">Cookie Website Project</h3>
+				<img src="images/cookieS.jpg" id="left" alt="A website for selling cookies">
+				<p id="right">This project was simply a test of HTML and CSS and I'm gonna be honest I've improved a lot since I worked on this. Mostly this was me and a partner getting familiar with HTML and CSS interactions and various tags.
+				<br><br>
+				While I don't feel proud enough to upload it to github, you can access the files <a href="https://drive.google.com/drive/folders/1y5cACUNGqTrSOyLEJEe5YEccwBybr4w5?usp=sharing">here</a> if you feel like it. 
+				</p>
+			</div>
+
+<!---Maybe I could have done buttons for some of the links but that would have been css styling and I'm tired--->
+
+			<div class="band">
+				<h3 class="wHead2" tabindex="0">Band Website (Exam 1)</h3>
+				<img src="images/hooby.png" id="left" alt="Screenshot of a band site">
+				<p id="right">This project was about creating a stylized website that uses forms as well as testing the usage of several elements of css and html. Not super proud of this either but I think it was pretty good for something I did in 6 hours as a novice<
+				<br><br>
+				You can check out the site on github <a href="https://ziongab.github.io/East_FE2021/">here</a>
+				</p>
+			</div>
+
+<!---Felt I still needed a link here so I made a drive to share the xd file itself just for fun.--->
+
+			<div class="XD">
+				<h3 tabindex="0">Metz Redesign Project</h3>
+				<img src="images/XDpage.png" id="left" alt="A website mockup">
+				<p id="right">This project was interesting because we had to redesign an already working website and create an interactive prototype in Adobe XD.<br><br>We managed to get it in after an extreme level of crunch but I still think it was a good effort
+				<br><br>
+				You can check out the XD file <a href="https://drive.google.com/file/d/1H2pJNFuXH0ZQl5UB8wzOojTVqDG3cd3u/view?usp=sharing">here</a>
+				</p>
+			</div>
+
+<!---Would have loved to update github for this section but I needed to get this done first--->
+
+			<div class="rebuild">
+				<h3 class="wHead2" tabindex="0">Metz Rebuild</h3>
+				<img src="images/rebuilt.jpg" id="left" alt="Screenshot of redesigned website">
+				<p id="right">God the project was such a crunchfest. It was essentially us trying to build the XD mockup we made for the previous project but in actual html code with javascript and css. I've noticed some issues with it post upload but I can't spend all my time fixing every little issue I find
+				<br><br>
+				Still for something we put together over most over a span of 2 days I'd say we didn't do bad. Come take a look <a href="https://ziongab.github.io/ZiongaB-McElderry-East_Metz/">here</a> if you feel like it. 
+				</p>
+			</div>
+<!---Connection to js file.--->
+			<script src="js/jsport.js"></script>
+		</main>
+
+<!---Footer button could have been better but I had a lot of trouble with the button element stylings working so i just decided to work on other problems--->
+
+		<footer>
+			<button>Come Learn About Me!</button>
+		</footer>
+
+	</body>
+</html>
